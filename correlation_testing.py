@@ -258,7 +258,7 @@ def main():
 
 	#Non-permutation example
 	correlation_analysis(
-		filename = 'C:/data/represented/as/csv/filename.csv',
+		filename = 'example_for_GitHub.csv',
 		filter_column = 'group',
 		filters_to_thresholds = {
 			'CHR-NC' : 0.6013,
@@ -273,7 +273,7 @@ def main():
 
 	#Permutation example
 	correlation_analysis(
-		filename = 'C:/data/represented/as/csv/filename.csv',
+		filename = 'example_for_GitHub.csv',
 		filter_column = 'group',
 		filters_to_thresholds = {
 			'CHR-NC' : 0.6013,
